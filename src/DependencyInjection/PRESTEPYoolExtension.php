@@ -10,7 +10,7 @@ declare(strict_types=1);
  * www.prestep.at <development@prestep.at>
  *******************************************************************/
  
-namespace IIDO\BasicBundle\DependencyInjection;
+namespace PRESTEP\YoolBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;
@@ -33,11 +33,11 @@ class PRESTEPYoolExtension extends Extension
      */
     public function load(array $mergedConfig, ContainerBuilder $container)
     {
-        $loader = new YamlFileLoader(
-            $container,
-            new FileLocator(__DIR__.'/../Resources/config')
-        );
-        $loader->load('listener.yml');
-        $loader->load('services.yml');
+//        $loader = new YamlFileLoader(
+//            $container,
+//            new FileLocator(__DIR__.'/../Resources/config')
+//        );
+//        $loader->load('listener.yml');
+//        $loader->load('services.yml');
     }
 }
