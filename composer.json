@@ -1,7 +1,7 @@
 {
     "name"          : "prestep/contao-yool-bundle",
     "type"          : "contao-bundle",
-    "description"   : "Contao 4 PreStep YOOL-Tootl Bundle",
+    "description"   : "Contao 4 PreStep YOOL-Tool Bundle",
     "homepage"      : "http://www.prestep.at",
     "license"       : "MIT",
     "authors"       :
